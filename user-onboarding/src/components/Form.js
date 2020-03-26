@@ -116,7 +116,7 @@ const Form = () => {
 
     return (
         <div>
-            <NewUserButton onClick={toggle}>New User</NewUserButton>
+            <NewUserButton id="userButton" onClick={toggle}>New User</NewUserButton>
             <Collapse isOpen={isOpen}>
             <form onSubmit={formSubmit}>
                 <div>
